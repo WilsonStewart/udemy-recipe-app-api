@@ -1,3 +1,14 @@
 {
-    "image": "python:3.9-alpine3.13"
+    "name": "udemy-recipe-app",
+    "image": "python:3.9-bullseye",
+    "features": {
+        "./features/com.2deers.udemy-recipe-app-dependencies": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
 }
